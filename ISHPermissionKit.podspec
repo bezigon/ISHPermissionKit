@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = 'New BSD'   
   s.authors      = { 'Felix Lamouroux' => 'felix@iosphere.de' }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.source       = { :git => 'https://github.com/iosphere/ISHPermissionKit.git', :tag => '0.7.0' }
   s.source_files = 'ISHPermissionKit', 'ISHPermissionKit/**/*.{h,m}'
   s.requires_arc = true
